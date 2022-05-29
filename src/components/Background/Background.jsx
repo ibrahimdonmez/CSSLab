@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Background() {
 
     const [backgroundImage, setBackgroundImage] = useState("");
     const [backgroundRepeat, setBackgroundRepeat] = useState("no-repeat");
     const [backgroundPosition, setBackgroundPosition] = useState("center");
-    const [borderSize, setBorderSize] = useState("");
 
     function changeCode(){
         document.getElementById("code").value = document.getElementById("box").outerHTML.substring( document.getElementById("box").outerHTML.indexOf("padding-top") + 16, document.getElementById("box").outerHTML.indexOf("</div>") -2)
