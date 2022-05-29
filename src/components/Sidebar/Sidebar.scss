@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Indie+Flower&family=Passion+One&family=Tiro+Kannada&display=swap');
+.Sidebar {
+  background: #191c25;
+  box-shadow: 3px 0 8px rgba(0,0,0,0.1);
+  height: 100%;
+  // width: 50px ;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  // opacity: 0;
+  width: 330px;
+  opacity: 1;
+}
+
+/* ON HOVER */
+// .Sidebar:hover{
+//  width: 330px;
+//  opacity: 1;
+// }
+
+.add-food-container{
+  width: 660px;
+  margin: 50px auto 0px auto;
+}
+
+.add-food-container{
+  padding-top:60px;
+}
+
+a .add-food-container{
+  font-size:13px;
+}
+
+p .add-food-container{
+  text-align:center;
+}
+
+/* The navigation menu links */
+.Sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s
+}
+
+.list-group-item{
+  height: 50px;
+  color: white !important;
+  background-color:rgba(32, 31, 31, 0.588);
+}
+
+.list-group-item:hover{
+  background-color:#86BC42;
+}
+
+.Sidebar .sidebar-title{
+  color: #86BC42 !important;
+  font-family: 'Indie Flower', sans-serif;
+  margin-left: 3%;
+  font-size: 22px;
+  padding-top:7%;
+  
+}
+
+.list-group-item .active{
+  border-color: #191c25 !important;
+}
+
+.Sidebar .active{
+  color: #86BC42 !important;
+  font-weight: bold;
+}
+
+.Sidebar .sidebar-collapse{
+    flex-basis: 100%;
+    @media (min-width:992px) {
+      margin-left:30%;
+      flex-basis: auto;
+    }
+}
+
+.container-fluid{
+  position:absolute;
+}
+
+.Admin-sidebar-show{
+  margin-top: 50%;
+  margin-left: 50%;
+}
+
+
+.sidebar-img{
+  margin-top: 20px;
+  position: absolute; 
+}
+
+.sidebar-footer{
+  position: fixed;
+  bottom: 0;
+  color: #86BC42;
+  width: 100%;
+  span{
+    margin-left: 3%;
+  }
+}
